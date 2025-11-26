@@ -1,0 +1,22 @@
+/* File: styles/13-style.css */
+
+/* Normal links (only those with href) */
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* Visited links */
+a:visited {
+    font-style: italic;
+}
+
+/* Hover state */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Active state */
+a:active {
+    background-color: var(--color-light-grey);
+}
